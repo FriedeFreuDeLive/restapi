@@ -18,4 +18,4 @@ app.use(express.json());
 const notesRouter = require('./routes/notes');
 app.use('/notes', notesRouter);
 
-app.listen(3000, () => console.log('Server Started'));
+app.listen(process.env.PORT, () => console.log('Server Startedon port: ' + process.env.PORT));
