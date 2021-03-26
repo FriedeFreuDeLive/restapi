@@ -1,0 +1,15 @@
+GET http://localhost:3000/notes
+
+###
+
+GET http://localhost:3000/notes/15
+
+###
+
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "title": "Note2",
+    "text": "Note2 note2 note2"
+}
